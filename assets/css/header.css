@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.shell {
+	width: 1900px;
+	margin: 0 auto;
+}
+
+header {
+	height: 685px;
+	width: 1900px;
+	border-bottom: 1px solid #3f3f3d;
+
+	background: #004293 url('../img/City.png') no-repeat scroll center;
+	background-size: cover;
+}
+
+#logo {
+	display: inline-block;
+	font-size: 40px;
+	color: #cab9a8;
+	font-family: 'Dancing Script';
+	padding-bottom: 2px;
+	padding-left: 400px;
+}
+
+#logo:hover,
+#logo:visited {
+	text-decoration: none;
+}
+
+#logo > i {
+	padding-left: 40px;
+}
+
+#logo > span {
+	display: block;
+	font-size: 50px;
+	color: #fff;
+}
+
+#logo > span > b {
+	padding-right: 30px;
+}
+
+nav {
+	float: right;
+	padding-right: 500px;
+}
+
+nav > ul > li {
+	float: left;
+}
+
+nav > ul > li > a {
+	min-height: 120px;
+	display: table;
+	padding: 0px 40px;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+nav > ul > li.current > a {
+	color: #fff;
+}
+
+nav > ul > li > a:hover,
+nav > ul > li > a:visited {
+	text-decoration: none;
+}
+
+nav > ul > li:hover > a {
+	color: #fff;
+	background-color: #262938;
+}
+
+nav > ul > li > a > span {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper > .search_box {
+	top: 300px;
+	color: #fff;
+	background-color: #e0dcdb;
+	position: relative;
+	padding: 15px;
+	border-radius: 50px;
+	border: 2px solid #5d5250;
+	display: flex;
+}
+
+.wrapper > .search_box > .fa-search {
+	color: #2db0c5;
+	font-size: 25px;
+}
+
+.wrapper > .search_box > .input {
+	width: 700px;
+	border-radius: 50px;
+	font-size: 20px;
+	outline: none;
+	border: none;
+	letter-spacing: 1px;
+}
+
+::-webkit-input-placeholder {
+	background-color: #e0dcdb;
+	color: #black;
+	text-transform: inherit;
+}
+
+.wrapper > .search_box > .close_btn {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	cursor: pointer;
+	width: 90px;
+	height: 55px;
+	border: none;
+	background: rgb(43,147,150);
+	background: linear-gradient(0deg, rgba(43,147,150,1) 0%, rgba(86,186,186,1) 50%, rgba(127,228,233,1) 100%);
+	text-transform: uppercase;
+	border-radius: 0px 50px 50px 0px;
+}
+
+.paragraph {
+	color: #fff;
+	text-align: center;
+	padding-top: 350px;
+	padding-left: 650px;
+	padding-right: 650px;
+}
+

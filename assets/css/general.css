@@ -1,0 +1,106 @@
+.frame {
+	width: 1900px;
+	margin: 0 auto;
+}
+
+
+.clear:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.heading {
+	font-size: 50px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+#content {
+	width: 1900px;
+
+}
+
+#content > .heading > h2:after {
+	content: '';
+	display: block;
+	width: 160px;
+	height: 1px;
+	margin: 15px auto;
+	justify-content: center;
+}
+
+#content > .paragraph_content {
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+.icons_box {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 150px;
+}
+
+.icons_box > .icon {
+	height: auto;
+	margin: auto;
+	margin-top: 50px;
+	width: 33.3333%;
+	float: left;
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 30px;
+	float: left;
+	padding: 70px;
+}
+
+.icons_box > .icon > ul {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.icons_box > .icon > ul > li {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 100%;
+	margin: 0px 10px;
+	border: 1px solid #2db0c5;
+	float: left;
+}
+
+.icons_box > .icon > ul > li > a {
+	display: inline-block;
+	color: #2db0c5;
+	font-size: 30px;
+} 
+
+.icons_box > .icon > ul > li > a > i {
+	line-height: 60px;
+}
+
+.icons_box > .icon > ul > h3 {
+	font-size: 25px;
+	float: left;
+}
+
+.text {
+	padding: 30px 0px ;
+	text-align: left;
+}
+
+.image {
+	float: left;
+	justify-content: center;
+}
